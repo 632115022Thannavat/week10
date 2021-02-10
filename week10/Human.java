@@ -11,8 +11,8 @@ human.hit(dog);
 dog = new Cat();
 System.out.println("The second calling hit(Animal)");
 human.hit(dog);
-dog = new Fish();
+Animal fish = new Fish();
 System.out.println("The third calling hit(Animal)");
-human.hit(dog);
+human.hit(fish);
 }
 }
